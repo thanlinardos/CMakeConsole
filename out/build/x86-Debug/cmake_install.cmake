@@ -1,8 +1,8 @@
-# Install script for directory: C:/VS2019/CMakeConsole
+# Install script for directory: C:/Users/thanl/Documents/CPP_VS22/CMakeConsole
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/VS2019/CMakeConsole/out/install/x86-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/thanl/Documents/CPP_VS22/CMakeConsole/out/install/x86-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/VS2019/CMakeConsole/out/build/x86-Debug/CMakeConsole/cmake_install.cmake")
+  include("C:/Users/thanl/Documents/CPP_VS22/CMakeConsole/out/build/x86-Debug/CMakeConsole/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/VS2019/CMakeConsole/out/build/x86-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/thanl/Documents/CPP_VS22/CMakeConsole/out/build/x86-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

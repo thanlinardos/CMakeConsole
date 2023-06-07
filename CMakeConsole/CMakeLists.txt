@@ -34,6 +34,7 @@ ${VVRFRAMEWORK_DIR}/lib/MathGeoLib_d.lib
 )
 
 add_custom_command(TARGET ${SOLUTIONTITLE} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${VVRFRAMEWORK_DIR}/lib" "${CMAKE_SOURCE_DIR}/out/install/x86-Debug/cmakeconsole/bin")
+#add_custom_command(TARGET ${SOLUTIONTITLE} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${VVRFRAMEWORK_DIR}/lib" "${CMAKE_SOURCE_DIR}/out/build/x86-Debug/CMakeConsole")
 #add_custom_command(TARGET ${SOLUTIONTITLE} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${VVRFRAMEWORK_DIR}/GeoLib/$<CONFIG>" ${CMAKE_BINARY_DIR}/$<CONFIG>)
 #add_custom_command(TARGET ${SOLUTIONTITLE} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${VVRFRAMEWORK_DIR}/MathGeoLib/$<CONFIG>" ${CMAKE_BINARY_DIR}/$<CONFIG>)
 

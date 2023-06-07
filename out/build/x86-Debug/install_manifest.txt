@@ -1,1 +1,1 @@
-C:/VS2019/CMakeConsole/out/install/x86-Debug/cmakeconsole/bin/CMakeConsole.exe
+C:/Users/thanl/Documents/CPP_VS22/CMakeConsole/out/install/x86-Debug/cmakeconsole/bin/CMakeConsole.exe

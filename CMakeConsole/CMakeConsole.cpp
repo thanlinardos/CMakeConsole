@@ -16,7 +16,7 @@ using namespace std;
 using namespace vvr;
 using namespace Eigen;
 using namespace math;
-string PROJECT_ROOT = "C:/VS2019/CMakeConsole";
+string PROJECT_ROOT = "C:/Users/thanl/Documents/CPP_VS22/CMakeConsole";
 Mesh3DScene::Mesh3DScene()
 {
 	//! Load settings.
@@ -696,8 +696,8 @@ void Mesh3DScene::draw()
 		}
 		else {
 			float t1;
-			//string script_path = "C:/Users/thanl/AppData/Local/Programs/Python/Python310/python.exe " + PROJECT_ROOT + "/test/siren/sdf_model_create.py";
-			string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
+			string script_path = PROJECT_ROOT + "/test/siren/sdf_model_create.py";
+			//string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
 			switch (option_B1) {
 			case(1):
 				t1 = vvr::getSeconds();
@@ -802,8 +802,8 @@ void Mesh3DScene::draw()
 		cout << "Average time for kd-tree function = " << t << endl;
 		*/
 		signed_distance_function.clear();
-		//string script_path = "C:/Users/thanl/AppData/Local/Programs/Python/Python310/python.exe " + PROJECT_ROOT + "/test/siren/sdf_model_create.py";
-		string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
+		string script_path = PROJECT_ROOT + "/test/siren/sdf_model_create.py";
+		//string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
 		if (obj_names[objNo - 1] == "cube") {
 			vector<vvr::Triangle> tr_empty;
 			findSigned_Cube(model_vertices, m_model.getTriangles(), final_transform2, plane_points, signed_distance_function, tr_empty);
@@ -962,8 +962,8 @@ void Mesh3DScene::draw()
 		cout << "use sdf? (y/n)" << endl;
 		string s;
 		cin >> s;
-		//string script_path = "C:/Users/thanl/AppData/Local/Programs/Python/Python310/python.exe " + PROJECT_ROOT + "/test/siren/sdf_model_create.py";
-		string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
+		string script_path = PROJECT_ROOT + "/test/siren/sdf_model_create.py";
+		//string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
 		if (s == "y") use_sdf = true;
 		else use_sdf = false;
 		if (use_sdf) {
@@ -2387,8 +2387,8 @@ void Converge_Collision_SIREN(std::vector<vec>& origin_vertices, std::vector<vec
 	KDTree* KDTree1 = NULL;
 	KDTree* KDTree2 = NULL;
 	vector<vec> origin_vertices_t;
-	//string script_path = "C:/Users/thanl/AppData/Local/Programs/Python/Python310/python.exe " + PROJECT_ROOT + "/test/siren/sdf_model_create.py";
-	string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
+	string script_path = PROJECT_ROOT + "/test/siren/sdf_model_create.py";
+	//string script_path = PROJECT_ROOT + "/test/siren/dist/sdf_model_create.exe";
 	vector<vec> vertices_t;
 	//collision_time = 0;
 	while (cont) {

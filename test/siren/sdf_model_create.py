@@ -1,7 +1,7 @@
 import os
 import sys
 
-PROJECT_ROOT="C:/VS2019/CMakeConsole"
+PROJECT_ROOT="C:/Users/thanl/Documents/CPP_VS22/CMakeConsole"
 sys.path.append(PROJECT_ROOT+"/test/siren/content")
 
 import torch

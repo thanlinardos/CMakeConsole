@@ -1,0 +1,11 @@
+# Project requirements
+# Usage: pip install -r requirements.txt
+
+torch
+numpy
+collections
+matplotlib
+h5py
+torchvision
+scikit-image
+sk-video

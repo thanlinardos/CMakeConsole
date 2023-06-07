@@ -4,7 +4,7 @@ Run down of each part of the project: <br />
 A_1) Find the differential coordinates of the mesh object <br />
 A_2) Smooth the mesh with shrinking (parameter λ + iterations) <br />
 A_3) Smooth the mesh with smart Taubing inflation (λ,μ,i) <br />
-![taubin inflation img](resources/taubin.png?raw=true)
+![taubin inflation img](resources/taubin.png?raw=true) <br />
 In the above image left is the original object and on the right is the object after Taubin smoothing <br />
 B_1) Find Signed Distance Function (sphere,AABB)
 B_2) Normals

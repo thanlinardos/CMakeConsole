@@ -1329,6 +1329,9 @@ void Mesh3DScene::sliderChanged(int slider_id, float v)
 int main(int argc, char* argv[])
 {
 	try {
+		string path = argv[0];
+		PROJECT_ROOT = path.substr(0, 46);
+		cout << PROJECT_ROOT << endl;
 		return vvr::mainLoop(argc, argv, new Mesh3DScene);
 	}
 	catch (std::string exc) {
@@ -3110,16 +3113,16 @@ void savePointsToText(vector<vec>& points) {
 	//C: / Users / thanl / Documents / GEOMETRIA / 2022 / Model_load_with_Anim / resources /
 	ofs.open(PROJECT_ROOT+"/test/siren/COLAB CODE/points.txt", std::ofstream::out | std::ofstream::trunc);
 	int l = points.size();
-	float scale = 24.31723;
+	float scale = 24.31723f;
 	for (int i = 0; i < l - 1; i++) {
-		float x = (points[i].x + 4.5) / scale;
+		float x = (points[i].x + 4.5f) / scale;
 		float y = points[i].y / scale;
-		float z = (points[i].z + 3.8) / scale;
+		float z = (points[i].z + 3.8f) / scale;
 		ofs << x << " " << y << " " << z << std::endl;
 	}
-	float x = (points[l - 1].x + 4.5) / scale;
+	float x = (points[l - 1].x + 4.5f) / scale;
 	float y = points[l - 1].y / scale;
-	float z = (points[l - 1].z + 3.8) / scale;
+	float z = (points[l - 1].z + 3.8f) / scale;
 	ofs << x << " " << y << " " << z;
 	ofs.close();
 	cout << points.size() << "lines...done" << endl;

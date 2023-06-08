@@ -1,9 +1,0 @@
-# ninja log v5
-7	1954	7078504522659696	CMakeConsole/CMakeFiles/CMakeConsole.dir/CMakeConsole.cpp.obj	508e71bf337f415e
-1973	3464	7078504529739762	CMakeConsole/CMakeConsole.exe	8337227ef8319d07
-2	8	0	clean	8c45b54705a541e8
-2584	2628	0	CMakeFiles/install.util	d003b8ea5ae47edc
-5	11	0	clean	8c45b54705a541e8
-7	1781	7078504848980511	CMakeConsole/CMakeFiles/CMakeConsole.dir/CMakeConsole.cpp.obj	508e71bf337f415e
-1783	3684	7078504852190512	CMakeConsole/CMakeConsole.exe	5f4490e291addee0
-10	59	0	CMakeFiles/install.util	d003b8ea5ae47edc

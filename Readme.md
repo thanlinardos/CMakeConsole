@@ -22,9 +22,5 @@ After training a model with appropriate data for the Armadillo object and succes
 
 <br />
 To build use Visual Studio: <br />
-1)change PROJECT_ROOT variable in CMakeConsole\CMakeConsole.cpp file to the directory you cloned the project in <br />
-2) change the same variable inside python script: 
-test\siren\sdf_model_create.py <br />
-3) build with Visual Studio <br />
-4) .exe will be compiled in: out\install\x86-Debug\cmakeconsole\bin\CMakeConsole.exe <br /><br />
+.exe will be installed in: out\install\x86-Debug\CmakeConsole\CMakeConsole.exe <br /><br />
 Note: CMakeLists will copy the VVRFramework dlls into the same folder as the .exe for it to work <br />
